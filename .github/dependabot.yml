@@ -1,0 +1,22 @@
+updates:
+- assignees:
+  - team_member1
+  - team_member2
+  commit-message:
+    include: scope
+    prefix: '[DEPENDENCY UPDATE]'
+  directory: /
+  labels:
+  - dependencies
+  open-pull-requests-limit: 10
+  package-ecosystem: pip
+  rebase-strategy: auto
+  reviewers:
+  - team_member1
+  - team_member2
+  schedule:
+    interval: daily
+    time: 02:00
+  security-updates: true
+  versioning-strategy: increase
+version: 2
