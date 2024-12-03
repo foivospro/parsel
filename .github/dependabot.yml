@@ -1,7 +1,5 @@
 updates:
-- assignees:
-  - team_member1
-  - team_member2
+- assignees: []
   commit-message:
     include: scope
     prefix: '[DEPENDENCY UPDATE]'
@@ -11,9 +9,7 @@ updates:
   open-pull-requests-limit: 10
   package-ecosystem: pip
   rebase-strategy: auto
-  reviewers:
-  - team_member1
-  - team_member2
+  reviewers: []
   schedule:
     interval: daily
     time: 02:00
